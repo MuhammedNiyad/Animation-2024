@@ -19,7 +19,7 @@ body{
     transition: .05s ease;
 }
 .banner:hover{
-    clip-path: circle(15vw at var(--x) var(--y));
+    clip-path: circle(10vw at var(--x) var(--y));
     background: #09da37;
     z-index: 1;
 }
@@ -30,7 +30,6 @@ body{
     font-size: 25vw;
     pointer-events: none;
     font-weight: bold;
-
 }
 .content{
     display: flex;
